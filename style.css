@@ -62,14 +62,30 @@ body {
     grid-template-rows: 20rem 20rem;
     gap: 2rem;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .project-item {
-    background-color: #e10126;
+    color: #fff;
+    background-color: #0072e4;
+    font-size: 3rem;
     width: 20rem;
+    text-decoration: none;
     border: 2px solid #000;
+}
+
+.project-item:hover {
+    color: #e10126;
+}
+
+.contact-section {
+    width: 30%;
+    background-color: azure;
+    font-size: 2rem;
+    border: 2px solid #000;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
 }
 
 .footer {
