@@ -59,25 +59,51 @@ body {
 .main-content {
     display: grid;
     grid-template-columns: 20rem 20rem 20rem;
-    grid-template-rows: 20rem 20rem;
-    gap: 2rem;
+    grid-template-rows: 15rem 15rem;
+    gap: 3rem;
     justify-content: center;
     margin-top: 2rem;
     text-align: center;
 }
 
 .project-item {
-    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #0072e4;
     font-size: 3rem;
     width: 20rem;
-    text-decoration: none;
-    border: 2px solid #000;
+    height: 15rem;
+    border: 3px solid #000;
+    border-radius: 10px;
 }
 
-.project-item:hover {
+.item-title {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.repo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.item-title:link,
+.item-title:visited,
+.repo:link,
+.repo:visited {
+    color: #fff;
+}
+
+.item-title:hover,
+.item-title:active,
+.repo:hover,
+.repo:active {
     color: #e10126;
 }
+
 
 .contact-section {
     width: 30%;
